@@ -33,4 +33,6 @@ void editar_produto(FILE *);
 void dados();
 void listar_vendas(FILE *);
 void realizar_vendas(FILE *, FILE *, int *);
-void consultar_venda(FILE *);
+void emitir_comprovante(FILE *);
+void consulta_codigo(FILE *pro);
+void consulta_nome(FILE *pro);
